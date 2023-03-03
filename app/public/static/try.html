@@ -1,0 +1,158 @@
+<!-- <div class="sidebar-mod" id="yingyong">
+    <h1 class="sidebar-h"><a href="https://app.mi.com/catTopList/0?page=1" class="more">更多</a>应用排行</h1>
+    <ul class="ranklist" id="ranklist">
+        <li class="one">
+            <div class="mod thumb" id="hide" onmouseover="block()" onmouseout="cancel()">
+                <h3 class="try">
+                    <span class="light">1</span>
+                    <a href="https://app.mi.com/details?id=com.tencent.tmgp.sgame" class="hd">王者荣耀-兔年限定</a>
+                </h3>
+                <a class="ranklist-img fl" id="fl" href="https://app.mi.com/details?id=com.tencent.tmgp.sgame">
+                    <img src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/00194c54cbc874fc23a30e1379f6b8a57ff08b6f5" width="64" height="64"  alt="王者荣耀-兔年限定" href="https://app.mi.com/details?id=com.tencent.tmgp.sgame" />
+                  </a>
+                  <div class="intro hide"> 
+                    <a href="https://app.mi.com/category/19" class="intro-category">网游RPG</a>
+                    <p>大小：2,064M</p>
+                    <div class="star-empty">
+                      <div class="star-hover star-7"></div>
+                    </div>
+                  </div>
+            </div>
+        </li>
+        <li class="one">
+            <div class="mod thumb" onmouseover="block()" onmouseout="cancel()">
+                <h3 class="try">
+                    <span class="light">2</span>
+                    <a href="https://app.mi.com/details?id=com.tencent.tmgp.sgame" class="hd">王者荣耀-兔年限定</a>
+                </h3>
+                <a class="ranklist-img fl" href="https://app.mi.com/details?id=com.tencent.tmgp.sgame">
+                    <img src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/00194c54cbc874fc23a30e1379f6b8a57ff08b6f5" width="64" height="64"  alt="王者荣耀-兔年限定" href="https://app.mi.com/details?id=com.tencent.tmgp.sgame" />
+                  </a>
+                  <div class="intro hide"> 
+                    <a href="https://app.mi.com/category/19" class="intro-category">网游RPG</a>
+                    <p>大小：2,064M</p>
+                    <div class="star-empty">
+                      <div class="star-hover star-7"></div>
+                    </div>
+                  </div>
+            </div>
+        </li>
+        <li class="one">
+            <div class="mod thumb" onmouseover="block()" onmouseout="cancel()">
+                <h3 class="try">
+                    <span class="light">3</span>
+                    <a href="https://app.mi.com/details?id=com.tencent.tmgp.sgame" class="hd">王者荣耀-兔年限定</a>
+                </h3>
+                <a id="fl" class="ranklist-img fl" href="https://app.mi.com/details?id=com.tencent.tmgp.sgame">
+                    <img src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/00194c54cbc874fc23a30e1379f6b8a57ff08b6f5" width="64" height="64"  alt="王者荣耀-兔年限定" href="https://app.mi.com/details?id=com.tencent.tmgp.sgame" />
+                  </a>
+                  <div class="intro hide"> 
+                    <a href="https://app.mi.com/category/19" class="intro-category">网游RPG</a>
+                    <p>大小：2,064M</p>
+                    <div class="star-empty">
+                      <div class="star-hover star-7"></div>
+                    </div>
+                  </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<style>
+    li {
+        list-style: none;
+    }
+    li {
+        font-size: 10px;
+    }
+    .mod{
+        float: left;
+    }
+    .one:after {
+    content: "";
+    display: table;
+    clear: both;
+    zoom: 1;
+}
+.intro {
+    font-size: 12px;
+    color: #6b6b6b;
+    display: inline-block;
+    border-radius: 5px;
+    line-height: 23px;
+}
+
+.aa {
+    display: hide;
+}
+
+.aa :hover {
+    display: block;
+} 
+</style>
+
+<script>
+
+var leg = document.getElementById("ranklist").getElementsByTagName("li").length
+console.log(leg);
+
+   function block(){
+        for (let i =0; i<leg;i++){
+            document.getElementsById("hide").style="display:block";
+            console.log(document.getElementsById("hide").style);
+            document.getElementsById("fl").style="display:block";
+            console.log(document.getElementsById("fl").style);
+            console.log("----------------");
+        }
+};
+   
+   function cancel(){
+        for (let i =0; i<leg;i++){
+    document.getElementsById("hide").style="display:none";
+    document.getElementsById("fl").style="display:none";
+}
+       
+}
+block();
+cancel()
+
+</script> -->
+<table>
+    <tr>
+      <td class="b1">none</td>
+      <td class="b2">hidden</td>
+      <td class="b3">dotted</td>
+      <td class="b4">dashed</td>
+    </tr>
+    <tr>
+      <td class="b5">solid</td>
+      <td class="b6">double</td>
+      <td class="b7">groove</td>
+      <td class="b8">ridge</td>
+    </tr>
+    <tr>
+      <td class="b9">inset</td>
+      <td class="b10">outset</td>
+    </tr>
+  </table>
+  <style>/* Define look of the table */
+    table {
+      border-width: 3px;
+      background-color: #52E385;
+    }
+    tr, td {
+      padding: 3px;
+    }
+    
+    /* border-bottom-style example classes */
+    .b1 {border-bottom-style: none;}
+    .b2 {border-bottom-style: hidden;}
+    .b3 {border-bottom-style: dotted;}
+    .b4 {border-bottom-style: dashed;}
+    .b5 {border-bottom-style: solid;}
+    .b6 {border-bottom-style: double;}
+    .b7 {border-bottom-style: groove;}
+    .b8 {border-bottom-style: ridge;}
+    .b9 {border-bottom-style: inset;}
+    .b10 {border-bottom-style: outset;}
+    </style>
